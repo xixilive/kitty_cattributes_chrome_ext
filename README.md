@@ -6,7 +6,7 @@
 
 ## Install
 
-1. Download `kitty_cattributes.crx`
+1. Download [kitty_cattributes.crx](https://github.com/xixilive/kitty_cattributes_chrome_ext/raw/master/kitty_cattributes.crx)
 2. Open chrome extensions tab `chrome://extensions`
 3. Drag & Drop `kitty_cattributes.crx` here
 
