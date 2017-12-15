@@ -1,0 +1,31 @@
+{
+  "name": "CryptoKitty Price",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Display CryptoKitty Cattribute avg price",
+  "icons": {
+    "38": "images/x60.png",
+    "128": "images/x120.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "https://cryptokittydex.com/*",
+    "storage"
+  ],
+  "page_action": {
+    "default_icon": {
+      "38": "images/x60.png"
+    },
+    "default_title": "CryptoKitty avg price"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.cryptokitties.co/kitty/*"
+      ],
+      "js": ["jquery.js", "contents.js"]
+    }
+  ]
+}
